@@ -1,0 +1,77 @@
+Template for
+
+PROBLEM STATEMENT
+
+1. Problem domain
+The traditional dairy industry faces inefficiencies that affect both customers and providers.
+Customers struggle with inconsistent product availability and inconvenient ordering, while
+providers like RM Milk Suppliers manage orders and billing manually. A digital solution is needed
+to streamline these interactions and improve the overall experience.
+
+2. Scenarios
+Scenario 1: Customer Ordering Process
+A customer logs into the RM Milk Suppliers app, browses products, adds items to the cart, and
+chooses a payment method. After confirming the order, they receive a notification with the order
+details. The customer visits the store to pick up their order at their convenience.
+Scenario 2: Provider Order Management
+The provider logs into the app, views inventory, processes orders, and prepares them for customer
+pickup. They can automatically generate and send invoices. The provider updates order statuses in
+real-time to ensure efficient management and customer satisfaction.
+
+3. Functional Requirements
+1)User Authentication: The system must allow users (both customers and the RM Milk Suppliers
+provider) to register and log in securely.
+2)Product Browsing: Customers must be able to browse available milk products and view
+detailed product information.
+3)Order Placement: Customers must be able to place orders for milk products and choose
+payment methods.
+4)Order Status Updates: Customers and the RM Milk Suppliers provider must be able to see
+real-time updates on the status of order preparation and readiness for pickup.
+
+5)Billing: The system must handle billing, generating and sending bills to customers automatically
+upon order confirmation.
+
+4. Nonfunctional Requirements
+1)Security: Implement robust security measures, including encryption and secure authentication,
+to protect user data.
+2)Performance: Ensure the app performs efficiently, with fast response times and minimal
+downtime.
+3)Scalability: Design the app to handle increased workloads and user demands as the business
+grows.
+4)Usability: Create an intuitive and user-friendly interface for easy navigation and use.
+5)Reliability: Ensure the app is reliable and stable, with minimal crashes or errors.
+
+5. Target Environment
+The RM Milk Suppliers app will be deployed on Android devices. It will cater to local dairy
+customers and the RM Milk Suppliers provider, requiring a user-friendly interface and seamless
+integration with mobile devices. The app will use Flutter for development, ensuring
+compatibility across various screen sizes and resolutions
+
+6. Deliverables and Deadlines
+Requirement Analysis Document: Due by August 1, 2023
+System Design Document: Due by September 1, 2023
+Development Milestone 1: Due by November 15, 2023
+Development Milestone 2: Due by December 15, 2023
+Feature Completion: Due by January 15, 2024
+Final Adjustments and Bug Fixes: Due by March 1, 2024
+
+Testing Report: Due by March 15, 2024
+
+7. Problem Defination
+Create an application that manages milk and milk product orders and handles billing efficiently
+for a local dairy, RM Milk Suppliers, with functionalities for order placement and billing
+management.
+8. Objectives
+1)Define Requirements and Feasibility Study: Gather and analyze the requirements of
+customers and the RM Milk Suppliers provider to provide a comprehensive digital solution.
+2)System Design and Prototyping: Develop a user-friendly system design and create a prototype
+for stakeholder feedback.
+3)Development: Implement the application based on the finalized design using suitable
+technology.
+4)Testing and Deployment: Conduct thorough testing and deploy the application successfully.
+.
+9. Probable Technology/IDE/Prog/DB required
+Technology: Flutter for cross-platform mobile app development
+IDE: Android Studio
+Programming Language: Dart
+Database: Firebase
